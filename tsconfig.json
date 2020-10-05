@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "module": "commonjs",
+      "target": "es2015",
+      "paths": {
+          "*": [ "./*" ],
+          "features": ["./features/*"]
+      },
+      "types": ["node", "@wdio/cucumber-framework","@wdio/sync",],
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+    },
+    "include": [
+      "features/step-definitions/*.ts"
+    ],
+    "compileOnSave": false
+  }
+  

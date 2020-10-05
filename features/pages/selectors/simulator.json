@@ -1,0 +1,8 @@
+{
+    "Environment": "QA",
+    "Client": "Demo2",
+    "ProgramId": "CLP",
+    "Sites": "BaseResponsive",
+    "Culture": "English",
+    "PointBalance": "100000"
+}
